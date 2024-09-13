@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+story book
+{{ story.title}}
+{% endblock %}
+
+
+{% block body %}
+    <div class="container">
+      <h2 class="text-center">{{story.title}}</h2><hr>
+      <p class="lead">{{story.body}}</p>
+
+    </div>
+{% endblock %}
